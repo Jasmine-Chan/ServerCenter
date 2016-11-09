@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CLOADING</class>
+ <widget class="QDialog" name="CLOADING">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>362</width>
+    <height>364</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>365</width>
+    <height>365</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>登陆系统</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="pic.qrc">
+    <normaloff>:/tu.png</normaloff>:/tu.png</iconset>
+  </property>
+  <widget class="QToolButton" name="QtbtnClose">
+   <property name="geometry">
+    <rect>
+     <x>325</x>
+     <y>0</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="QtbtnMin">
+   <property name="geometry">
+    <rect>
+     <x>289</x>
+     <y>0</y>
+     <width>38</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnLoad">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>293</y>
+     <width>92</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="QpbtnClose">
+   <property name="geometry">
+    <rect>
+     <x>248</x>
+     <y>293</y>
+     <width>92</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="QcomUser">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>78</y>
+     <width>315</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>135</width>
+     <height>20</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlineCity">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>210</y>
+     <width>315</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="QlinePass">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>145</y>
+     <width>315</width>
+     <height>38</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="pic.qrc"/>
+ </resources>
+ <connections/>
+</ui>

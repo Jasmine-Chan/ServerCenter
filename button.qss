@@ -1,0 +1,329 @@
+QPushButton{ 
+background-color: rgba(0,125,0,0); 
+color:blue;
+}
+
+QPushButton:hover{
+background-color:rgb(194, 222, 255); 
+color:red;
+}
+
+QPushButton:pressed{
+background-color:rgb(85, 170, 255); 
+border-style: inset;
+}
+
+
+
+QDialog{
+background-image:url(:/backdrop.png);
+}
+
+
+QMessageBox{
+background-image:url(:/backdrop.png);
+}
+
+QDateTimeEdit{
+background-color:transparent; 
+border:0.5px solid #9D9B90;
+}
+
+QRadioButton{
+background-color:transparent; 
+}
+
+
+
+QMenuBar{
+background-color:transparent;
+}
+QMenuBar::item{
+background-color:transparent; 
+}
+QMenuBar::item:selected{
+background-image:url(:/select.png);
+}
+
+QMenu{
+background-image:url(:/blue.png);
+border:none;
+}
+
+QMenu::item{
+background-color:transparent;
+outline:none;
+}
+
+QMenu::item:selected{
+background-color:transparent;
+outline:none;
+}
+
+QMenu:selected{
+background-color:red;
+border:none;
+}
+
+QTreeWidget{
+background-color:transparent;
+border:1px solid  #9D9B90;
+}
+
+QTreeWidget::item{
+height:25px;
+}
+
+QTreeWidget::item:selected{
+background-image:url(:/select.png);
+}
+
+QTreeWidget::item:hover{
+background-image:url(:/blue.png);
+}
+
+QTableWidget {
+background-color:transparent;
+border:1px solid  #9D9B90;
+gridline-color: #9D9B90;
+}
+
+QTableWidget::item:selected  {
+background-color: blue;
+}
+
+QTableWidget QScrollBar {
+background-color: transparent;
+}
+
+QHeaderView {
+background-color: transparent;
+}
+
+QHeaderView::section {
+     background-color: transparent;
+     color: black;
+     border:0.5px solid #9D9B90;
+     border-top:none;
+     border-left:none;
+     height:20px;
+}
+
+QHeaderView::up-arrow {
+color: red;
+}
+
+QLineEdit{
+background-color:rgb(187, 220, 255);
+}
+
+QTextEdit{
+background-color:transparent;
+border:0.5px solid #9D9B90;
+}
+
+QLable{
+background-color:transparent;
+}
+
+QComboBox{
+background-color:rgb(187, 220, 255);
+} 
+
+QComboBox:hover{ 
+background-color:rgb(187, 220, 255); 
+color: red;
+}
+
+QComboBox QAbstractItemView { 
+background-image:url(:/blue.png);
+selection-background-color:blue; 
+}
+
+
+QDialog#CLOADING{
+background-image:url(:/Loading.png);
+}
+
+QDialog[objectName="CLOADING"] >QLineEdit{
+background-color:transparent;
+border:none;
+font-family:"Verdana";
+font-size:20px;
+}
+
+QDialog[objectName="CLOADING"] >QComboBox{
+background-color:transparent;
+border:none;
+font-family:"Verdana";
+font-size:20px;
+}
+
+QTabWidget[objectName="tabWidget"]:pane {
+border-top:1px solid #e8f3f9;
+background:  transparent;
+}
+
+
+QTabWidget[objectName="tabWidget"]::tab-bar{
+        alignment:left;
+}
+
+QTabWidget[objectName="tabWidget"]>QTabBar::tab{
+        background:transparent;
+        color:black;
+        min-width:30ex;
+        min-height:10ex;
+}
+
+QTabWidget[objectName="tabWidget"]>QTabBar::tab:hover{
+        background:rgb(255, 255, 255, 100);
+}
+
+QTabWidget[objectName="tabWidget"]>QTabBar::tab:selected{
+        border-color: white;
+        background:rgb(255, 255, 255, 100);
+        color:red;
+}
+
+
+QDialog[objectName="CLOADING"] >QComboBox::drop-down{
+background-color:transparent;
+border:none;
+}
+
+QDialog[objectName="CLOADING"] >QPushButton#QpbtnLoad{
+border-radius:5px;
+background-image:url(:/Loading_button1.png);
+}
+
+QDialog[objectName="CLOADING"] >QPushButton#QpbtnLoad:pressed{
+border-radius:5px;
+background-image:url(:/Loading_button2.png);
+border-style: inset;
+}
+
+QDialog[objectName="CLOADING"] >QPushButton#QpbtnLoad:hover{
+border-radius:5px;
+background-image:url(:/Loading_button2.png);
+}
+
+QDialog[objectName="CLOADING"] >QPushButton#QpbtnClose{
+border-radius:5px;
+background-image:url(:/Close_button1.png);
+}
+
+QDialog[objectName="CLOADING"] >QPushButton#QpbtnClose:pressed{
+border-radius:5px;
+background-image:url(:/Close_button2.png);
+border-style: inset;
+}
+
+QDialog[objectName="CLOADING"] >QPushButton#QpbtnClose:hover{
+border-radius:5px;
+background-image:url(:/Close_button2.png);
+}
+
+
+QDialog[objectName="CLOADING"] >QToolButton#QtbtnClose{
+border-radius:5px;
+background-image:url(:/Loading_quit1.png);
+}
+
+QDialog[objectName="CLOADING"] >QToolButton#QtbtnClose:pressed{
+border-radius:5px;
+background-image:url(:/Loading_quit2.png);
+border-style: inset;
+}
+
+QDialog[objectName="CLOADING"] >QToolButton#QtbtnClose:hover{
+border-radius:5px;
+background-image:url(:/Loading_quit2.png);
+}
+
+
+QDialog[objectName="CLOADING"] >QToolButton#QtbtnMin{
+border-radius:5px;
+background-image:url(:/Loading_min1.png);
+}
+
+QDialog[objectName="CLOADING"] >QToolButton#QtbtnMin:pressed{
+border-radius:5px;
+background-image:url(:/Loading_min2.png);
+border-style: inset;
+}
+
+QDialog[objectName="CLOADING"] >QToolButton#QtbtnMin:hover{
+border-radius:5px;
+background-image:url(:/Loading_min2.png);
+}
+
+
+QDialog[objectName="CLOCK"] {
+border-radius:9px;
+background-image:url(:/lock.png);
+}
+
+
+QDialog[objectName="CLOCK"] >QPushButton{
+border-radius:5px;
+background-image:url(:/button1.png);
+}
+
+QDialog[objectName="CLOCK"] >QPushButton:pressed{
+border-radius:5px;
+background-image:url(:/button2.png);
+border-style: inset;
+}
+
+QDialog[objectName="CLOCK"] >QPushButton:hover{
+border-radius:5px;
+background-image:url(:/button2.png);
+}
+
+QDialog[objectName="CLOCK"] >QLineEdit{
+background-color:transparent;
+border-style:none;
+font-family:"Verdana";
+font-size:25px;
+color:white;
+}
+
+QDialog[objectName="CABOUT"] {
+border-radius:9px;
+background-image:url(:/gs.png);
+}
+
+
+QDialog[objectName="CABOUT"] >QPushButton{
+border-radius:5px;
+background-color:transparent;
+}
+
+QDialog[objectName="CABOUT"] >QPushButton:pressed{
+border-radius:5px;
+background-color:transparent;
+border-style: inset;
+}
+
+QDialog[objectName="CABOUT"] >QPushButton:hover{
+border-radius:5px;
+background-color:transparent;
+}
+
+QDialog[objectName="CSMARTCONTROL"] >QPushButton{
+border-style:hidden;
+}
+
+QDialog[objectName="CSMARTCONTROL"] {
+border-radius:9px;
+background-image:url(:/pic/smart_home_curtain_pic_all.png);
+}
+
+QCheckBox{
+background-color:transparent;
+border-style:inset;
+}
+QDialog[objectName="CFINDCARD"] >QPushButton{
+background-color:rgb(194, 222, 255);
+}
